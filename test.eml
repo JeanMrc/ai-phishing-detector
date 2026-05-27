@@ -1,0 +1,16 @@
+From: security@paypal-secure-login.xyz
+To: victim@gmail.com
+Subject: Urgent: Your PayPal account has been limited
+Reply-To: noreply@paypal-secure-login.xyz
+Received: from mail.paypal-secure-login.xyz
+
+Dear Customer,
+
+Your PayPal account has been limited due to suspicious activity.
+Please verify your account immediately by clicking the link below:
+
+http://paypal-secure-login.xyz/verify?token=abc123
+
+Failure to verify within 24 hours will result in permanent suspension.
+
+PayPal Security Team

@@ -1,0 +1,12 @@
+services:
+  phishing-detector:
+    build: .
+    container_name: ai-phishing-detector
+    stdin_open: true
+    tty: true
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY:-}
+      - DEMO_MODE=${DEMO_MODE:-false}
+    volumes:
+      - ./logs:/app/logs
+      - ./samples:/app/samples

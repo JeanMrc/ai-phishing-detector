@@ -1,0 +1,9 @@
+.env
+config.json
+build/
+dist/
+*.spec
+phishing_log.txt
+logs/
+__pycache__/
+*.pyc
